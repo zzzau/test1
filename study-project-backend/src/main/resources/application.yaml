@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai"
+    username: root
+    password: "123456"
+
+
+  mail:
+    host: smtp.163.com
+    port: 465
+    username: jinchoisme@163.com
+    password: MDTzF32KD7erZQbS
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      from: jinchoisme@163.com
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+
+  data:
+    redis:
+      database: 0
+      host: localhost
+      port: 6379
