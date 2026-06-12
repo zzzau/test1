@@ -1,4 +1,5 @@
 <template>
+  <div>hhhhhhhjjjjjj</div>
   <div style="margin-top: 30px">
     <el-steps :active="active" finish-status="success" align-center >
       <el-step title="验证电子邮件" />
